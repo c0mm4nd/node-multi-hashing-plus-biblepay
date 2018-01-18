@@ -26,8 +26,7 @@ void x11_hash(const char* input, char* output, uint32_t len)
     sph_skein512_context     ctx_skein;
     sph_jh512_context        ctx_jh;
     sph_keccak512_context    ctx_keccak;
-    sph_biblepay512_content  ctx_biblepay;
-
+    sph_biblepay512_context  ctx_biblepay;
 
     sph_luffa512_context		ctx_luffa1;
     sph_cubehash512_context		ctx_cubehash1;
